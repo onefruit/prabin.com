@@ -1,0 +1,219 @@
+{
+  "personalInfo": {
+    "name": "Prabin Shah",
+    "location": "Lalitpur, Nepal",
+    "phone": "+977 9840445865",
+    "email": "prabin.sc1@gmail.com",
+    "role": "Software Engineer",
+    "summary": "I am a dedicated Software Engineer with over 2 years of experience. I build strong, secure, and scalable applications to solve real-world problems. Using modern tech, I help businesses improve their digital presence and run more efficiently.",
+    "aboutSummary": "Passionate about crafting efficient and scalable software solutions. With a strong foundation in Java and modern web technologies, I specialize in building backend systems that drive business growth. I thrive on solving complex challenges and am committed to continuous learning and delivering high-quality code."
+  },
+  "stats": [
+    {
+      "label": "Years Experience",
+      "value": "2+"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "15+"
+    },
+    {
+      "label": "Client Satisfaction",
+      "value": "100%"
+    }
+  ],
+  "services": [
+    {
+      "title": "Backend Development",
+      "description": "Secure and scalable Java applications with Spring Boot, microservices architecture, and API development.",
+      "icon": "☕"
+    },
+    {
+      "title": "Frontend Development",
+      "description": "Responsive web interfaces using React.js and modern frontend technologies.",
+      "icon": "💻"
+    },
+    {
+      "title": "Database Management",
+      "description": "PostgreSQL, MySQL, MongoDB optimization, and maintenance.",
+      "icon": "🗄️"
+    },
+    {
+      "title": "Cloud Solutions",
+      "description": "AWS infrastructure setup, EC2, S3, Lambda, CloudFormation, and cloud-native application development.",
+      "icon": "☁️"
+    }
+  ],
+  "skills": {
+    "Backend Technologies": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "REST APIs"
+    ],
+    "Frontend Technologies": [
+      "React.js",
+      "JavaScript",
+      "HTML/CSS"
+    ],
+    "Databases & Tools": [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL"
+    ],
+    "Cloud & DevOps": [
+      "AWS",
+      "Docker"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Coding Technology",
+      "location": "Lalitpur, Nepal",
+      "role": "Java Spring Training",
+      "details": [
+        "Enhanced expertise in Java and the Spring framework.",
+        "Developed a full backend API for an Employee Management System.",
+        "Designed and implemented a full backend REST APIs for a book rental system using Spring Boot, including: User authentication, book listings, and rental processing.",
+        "Operated within the Scrum framework, contributing to: Sprint planning, execution, and reviews.",
+        "Addressed and resolved bugs, ensuring system stability and performance.",
+        "Collaborated with the frontend team to ensure seamless integration and optimal user experience.",
+        "GitHub Repository: Book Rental"
+      ]
+    },
+    {
+      "company": "GenenTech",
+      "location": "",
+      "role": "",
+      "details": [
+        "Developed REST APIs for web application",
+        "Resolved bugs, enhancing system stability and performance.",
+        "Collaborated with the frontend team for seamless integration and user experience."
+      ]
+    },
+    {
+      "company": "Hobes Technology",
+      "location": "Kathmandu, Nepal",
+      "role": "Junior Backend Developer",
+      "details": [
+        "Book Rental System (Intern)"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Expense Tracker",
+      "description": "Developed a backend-centric Expense Tracker application using Java, Spring Boot, and MySQL, designed to help users manage their personal finances.",
+      "features": [
+        "User Registration with email configuration",
+        "JWT-based Login Authentication",
+        "Category Management API",
+        "Income and Expense Tracking API",
+        "Dashboard API for summarizing financial data",
+        "Filter API for custom data queries (by date, type, etc.)",
+        "Notifications API for real-time financial alerts",
+        "Incorporated best practices like JPA auditing, global exception handling, and internationalization (i18n)."
+      ],
+      "techStack": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Swagger",
+        "Postman"
+      ],
+      "github": "Expense Tracker"
+    },
+    {
+      "name": "HimalayanBites",
+      "description": "Food Delivery System",
+      "features": [
+        "Implemented secure user login and registration using JWT-based token authentication.",
+        "Developed RESTful endpoints to manage cart items, place orders, and handle order history for users.",
+        "Built a dynamic admin dashboard for restaurant owners to manage menu items, track orders, and update restaurant details."
+      ],
+      "techStack": [
+        "Java",
+        "Spring Boot",
+        "React",
+        "MongoDB"
+      ],
+      "github": "Himalayan Bites"
+    },
+    {
+      "name": "Pharmanuman",
+      "description": "Web-based Pharmacy management system using Java, Spring Boot, Thymeleaf, and MySQL.",
+      "features": [
+        "Role-based application (Pharmacy, Stockist, Pharmaceutical Company)",
+        "Inventory management for each role.",
+        "Pharmacies can place order for medicine from stockists.",
+        "Spring security implemented (Basic authentication)"
+      ],
+      "techStack": [
+        "Java",
+        "Spring Boot",
+        "Thymeleaf",
+        "MySQL"
+      ],
+      "github": "Pharmanuman"
+    },
+    {
+      "name": "Retail Billing Software",
+      "description": "Efficient billing and inventory management solution for retail businesses.",
+      "features": [
+        "Point of Sale (POS) interface",
+        "Real-time inventory updates",
+        "Invoice generation and printing",
+        "Sales reporting and analytics"
+      ],
+      "techStack": [
+        "Java",
+        "Spring Boot",
+        "React",
+        "MySQL"
+      ],
+      "github": "Retail Billing Software"
+    },
+    {
+      "name": "Trading Platform",
+      "description": "Full-stack trading application for real-time asset management.",
+      "features": [
+        "Real-time market data integration",
+        "User portfolio management",
+        "Buy and sell order processing",
+        "Transaction history tracking"
+      ],
+      "techStack": [
+        "Java",
+        "Spring Boot",
+        "React",
+        "MySQL"
+      ],
+      "github": "Trading Platform"
+    },
+    {
+      "name": "SaaS POS Application",
+      "description": "Scalable Point of Sale application designed for multi-tenant SaaS environments.",
+      "features": [
+        "Multi-tenancy architecture",
+        "Subscription and billing management",
+        "Role-based access control (RBAC)",
+        "Centralized admin dashboard"
+      ],
+      "techStack": [
+        "Java",
+        "Spring Boot",
+        "React",
+        "MySQL"
+      ],
+      "github": "SaaS POS"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Software Engineering",
+      "period": "2018 – 2023",
+      "institution": "Nepal College of Information Technology",
+      "location": "Balkumari, Lalitpur"
+    }
+  ]
+}

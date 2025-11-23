@@ -1,0 +1,96 @@
+.section-subtitle {
+    text-align: center;
+    color: #a0a0a0;
+    margin-bottom: 3rem;
+    margin-top: -2rem;
+    font-size: 1.1rem;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #a0a0a0;
+    margin-bottom: 3rem;
+    margin-top: -2rem;
+    font-size: 1.1rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.service-card {
+    padding: 2.5rem 2rem;
+    text-align: center;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top right, rgba(0, 212, 255, 0.1), transparent 40%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.service-card:hover::before {
+    opacity: 1;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--primary-color);
+    box-shadow: 0 10px 30px -10px rgba(0, 212, 255, 0.2);
+}
+
+.service-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--glass-border);
+    transition: all 0.4s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.service-card:hover .service-icon {
+    background: var(--primary-color);
+    color: #000;
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
+    border-color: var(--primary-color);
+}
+
+.service-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+
+.service-desc {
+    font-size: 1rem;
+    color: #d0d0d0;
+    line-height: 1.6;
+    position: relative;
+    z-index: 1;
+}
