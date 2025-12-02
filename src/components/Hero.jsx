@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Hero.css';
 import resumeData from '../data/resume.json';
+import profileImg from '../assets/profile.jpg';
 
 const Hero = () => {
     const { name, role, summary } = resumeData.personalInfo;
@@ -53,7 +54,9 @@ const Hero = () => {
                 </div>
                 <div className="hero-visual">
                     <div className="glow-circle"></div>
-                    <div className="abstract-shape"></div>
+                    <div className="image-container">
+                        <img src={profileImg} alt="Prabin Shah" className="hero-image" />
+                    </div>
                 </div>
             </div>
         </section>

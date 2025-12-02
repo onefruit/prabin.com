@@ -72,20 +72,13 @@
     background-clip: text;
 }
 
-.project-desc {
-    font-size: 1.05rem;
-    color: #c0c0c0;
-    margin-bottom: 2rem;
-    line-height: 1.6;
-    flex-grow: 1;
-}
-
 .project-features {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     background: rgba(0, 0, 0, 0.2);
     padding: 1.5rem;
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.03);
+    flex-grow: 1;
 }
 
 .project-features h4 {
@@ -100,6 +93,7 @@
 .project-features ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .project-features li {
@@ -110,74 +104,16 @@
     position: relative;
 }
 
+.project-features li:last-child {
+    margin-bottom: 0;
+}
+
 .project-features li::before {
     content: '▹';
     position: absolute;
     left: 0;
     color: var(--primary-color);
     font-weight: bold;
-}
-
-.tech-stack {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-    margin-bottom: 2rem;
-    padding-top: 1rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.tech-tag {
-    font-size: 0.85rem;
-    padding: 6px 14px;
-    background: rgba(0, 212, 255, 0.05);
-    border-radius: 50px;
-    color: var(--primary-color);
-    border: 1px solid rgba(0, 212, 255, 0.2);
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
-
-.project-card:hover .tech-tag {
-    background: var(--primary-color);
-    color: #000;
-    box-shadow: 0 0 15px rgba(0, 212, 255, 0.4);
-    transform: translateY(-2px);
-}
-
-.project-links {
-    margin-top: auto;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.btn-link {
-    color: #fff;
-    font-weight: 600;
-    font-size: 0.95rem;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 8px 20px;
-    border-radius: 50px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: all 0.3s ease;
-}
-
-.btn-link::after {
-    content: '→';
-    transition: transform 0.3s ease;
-}
-
-.btn-link:hover {
-    background: var(--primary-color);
-    color: #000;
-    border-color: var(--primary-color);
-}
-
-.btn-link:hover::after {
-    transform: translateX(5px);
 }
 
 @media (max-width: 768px) {

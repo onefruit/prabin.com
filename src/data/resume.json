@@ -102,29 +102,24 @@
   ],
   "projects": [
     {
-      "name": "Expense Tracker",
-      "description": "Developed a backend-centric Expense Tracker application using Java, Spring Boot, and MySQL, designed to help users manage their personal finances.",
+      "name": "Enterprise Multi-Tenant SaaS POS",
+      "description": "A modern cloud-based Retail Point of Sale platform built for businesses operating across multiple store locations. Designed with scalability, fast checkout workflow, and real-time decision making in mind.",
       "features": [
-        "User Registration with email configuration",
-        "JWT-based Login Authentication",
-        "Category Management API",
-        "Income and Expense Tracking API",
-        "Dashboard API for summarizing financial data",
-        "Filter API for custom data queries (by date, type, etc.)",
-        "Notifications API for real-time financial alerts",
-        "Incorporated best practices like JPA auditing, global exception handling, and internationalization (i18n)."
+        "Multi-Tenant Architecture: Fully isolated environment for each business.",
+        "Comprehensive Dashboards: Dedicated interfaces for Cashier, Branch Manager, and Store Admin.",
+        "Real-Time Inventory: Live stock tracking with low-stock alerts.",
+        "Advanced Payment & Billing: Stripe integration, invoice generation, and discount logic."
       ],
       "techStack": [
         "Java",
         "Spring Boot",
-        "MySQL",
-        "Swagger",
-        "Postman"
+        "React",
+        "MySQL"
       ],
-      "github": "Expense Tracker"
+      "github": "SaaS POS"
     },
     {
-      "name": "HimalayanBites",
+      "name": "Food Delivery System",
       "description": "Food Delivery System",
       "features": [
         "Implemented secure user login and registration using JWT-based token authentication.",
@@ -140,13 +135,31 @@
       "github": "Himalayan Bites"
     },
     {
-      "name": "Pharmanuman",
-      "description": "Web-based Pharmacy management system using Java, Spring Boot, Thymeleaf, and MySQL.",
+      "name": "Expense Tracker",
+      "description": "Developed a backend-centric Expense Tracker application using Java, Spring Boot, and MySQL, designed to help users manage their personal finances.",
       "features": [
-        "Role-based application (Pharmacy, Stockist, Pharmaceutical Company)",
-        "Inventory management for each role.",
-        "Pharmacies can place order for medicine from stockists.",
-        "Spring security implemented (Basic authentication)"
+        "Secure Authentication: JWT-based login and user registration with email configuration.",
+        "Financial Management: Comprehensive API for tracking income, expenses, and managing categories.",
+        "Data Visualization: Dashboard API for summarizing financial data and filtering custom queries.",
+        "Real-Time Alerts: Notification system for financial updates and alerts.",
+        "Best Practices: Implemented JPA auditing, global exception handling, and i18n."
+      ],
+      "techStack": [
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Swagger",
+        "Postman"
+      ],
+      "github": "Expense Tracker"
+    },
+    {
+      "name": "Smart Pharmacy Management System",
+      "description": "A web application designed to streamline inventory management and ordering processes in the pharmaceutical industry, enabling efficient collaboration between stockists and local pharmacies.",
+      "features": [
+        "Real-Time Inventory: Accurate tracking of medicine stock levels and categories.",
+        "Digital Order Placement: Direct ordering system between pharmacies and stockists.",
+        "Role-Based Access: Secure portals for pharmacies, stockists, and admins."
       ],
       "techStack": [
         "Java",
@@ -158,12 +171,12 @@
     },
     {
       "name": "Retail Billing Software",
-      "description": "Efficient billing and inventory management solution for retail businesses.",
+      "description": "Retail Billing & POS Software",
       "features": [
-        "Point of Sale (POS) interface",
-        "Real-time inventory updates",
-        "Invoice generation and printing",
-        "Sales reporting and analytics"
+        "Secure Authentication: JWT-based login with Admin and Cashier roles.",
+        "Efficient Order Processing: Streamlined order placement, tax calculation, and discounts.",
+        "Payment Integration: Secure online payments via Razorpay.",
+        "Sales Analytics: Real-time insights on revenue and product performance."
       ],
       "techStack": [
         "Java",
@@ -175,12 +188,12 @@
     },
     {
       "name": "Trading Platform",
-      "description": "Full-stack trading application for real-time asset management.",
+      "description": "A full-featured cryptocurrency trading platform that enables secure trading, portfolio management, and AI-driven market insights. Built for real-world usage with advanced wallet functionality and robust security.",
       "features": [
-        "Real-time market data integration",
-        "User portfolio management",
-        "Buy and sell order processing",
-        "Transaction history tracking"
+        "AI-Powered Insights: Real-time crypto queries using Gemini and CoinGecko APIs.",
+        "Crypto Trading: Seamless buy/sell interface with real-time market data.",
+        "Advanced Wallet: Wallet-to-wallet transfers and bank withdrawals.",
+        "Robust Security: Two-Factor Authentication (2FA) and secure account recovery."
       ],
       "techStack": [
         "Java",
@@ -189,23 +202,6 @@
         "MySQL"
       ],
       "github": "Trading Platform"
-    },
-    {
-      "name": "SaaS POS Application",
-      "description": "Scalable Point of Sale application designed for multi-tenant SaaS environments.",
-      "features": [
-        "Multi-tenancy architecture",
-        "Subscription and billing management",
-        "Role-based access control (RBAC)",
-        "Centralized admin dashboard"
-      ],
-      "techStack": [
-        "Java",
-        "Spring Boot",
-        "React",
-        "MySQL"
-      ],
-      "github": "SaaS POS"
     }
   ],
   "education": [
